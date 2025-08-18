@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 644f7963521816840b4178585e736147, type: 3}
+  m_Name: WeaponSo
+  m_EditorClassIdentifier: 
+  weaponType: 0
+  sprite: {fileID: 0}
+  damage: 10
+  attackCoolTime: 0
+  scale: {x: 1, y: 1, z: 1}
+  mouseLookAngleCorrectionValue: -90
+  swordRotation: 120
+  swordAttackSpeed: 0.5
+  swordInclination: 60
+  addSwordScripts: []
+  bulletSO: {fileID: 0}
+  addBowScripts: []
+  addEtcScripts: []
