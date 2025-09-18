@@ -5,7 +5,16 @@ namespace UI.inventory.Item
 {
     public class Slot : MonoBehaviour
     {
-        [field:SerializeField] public Item haveItem { get; private set; }
+        [SerializeField] private Item haveItem;
+        public Item HaveItem
+        {
+            get => haveItem;
+            set
+            {
+                haveItem = value;
+            }
+        }
+
 
         private void Awake()
         {

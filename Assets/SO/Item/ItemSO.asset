@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5c4b6332be962648904ffb33a7e977a, type: 3}
   m_Name: ItemSO
   m_EditorClassIdentifier: 
-  itemType: 2
+  itemType: 0
   itemID: 123123
   itemName: TestItem
-  itemSprite: {fileID: 0}
+  itemSprite: {fileID: 7488293847307671404, guid: fbd2f3fa70dffc3409c6828872aad4f6, type: 3}
   maxItemStack: 1
   weaponSO: {fileID: 0}
